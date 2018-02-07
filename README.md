@@ -2,6 +2,8 @@
 
 > 简单vuex的使用
 
+[在线预览](https://mqp0713.github.io/vuex-demo/dist/index.html)
+
 ## Build Setup
 
 ``` bash

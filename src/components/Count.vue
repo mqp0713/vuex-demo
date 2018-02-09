@@ -9,6 +9,7 @@
       <button @click="$store.commit('reduce')">点击减少1</button> -->
       <button @click="add(10)">点击加10，额外增加100</button>
       <button @click="reduce">点击减少1</button>
+      <p>备注：点击加10表示在vuex的mutations定义的add()方法里面传入要增加的数量，额外增加100表示使用了vuex的getters在输出前对数据进行再编辑</p>
       <!-- <button @click="addAction">点击加10，额外增加100</button>
       <button @click="reduceAction">点击减少1</button> -->
     </div>
